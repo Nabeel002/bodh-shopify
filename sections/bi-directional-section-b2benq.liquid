@@ -1,0 +1,34 @@
+
+    <div class="colored-div">
+      <div class="custom-b2b-container">
+        <div class="horizontal-flex">
+          <h1 class="b2b-heading">{{ section.settings.subtext }}</h1>
+          <p class="b2b-pointers">{{ section.settings.pointers }}</p>
+        </div>
+      </div>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","section wf-section");</script>
+        
+{% schema %}
+{
+  "name": "Bi-directional-section-b2",
+  "tag": "div",
+  "class": "section wf-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "subtext",
+      "label": "Subtext",
+      "default": "Why Bodh Gem & Crystals?"
+    },
+    {
+      "type": "textarea",
+      "id": "pointers",
+      "label": "Pointers",
+      "default": "- Best Quality- Customisation Available- Authentic & Natural Crystals- Best Prices- Wide Range of Products"
+    }
+  ]
+}
+{% endschema %}

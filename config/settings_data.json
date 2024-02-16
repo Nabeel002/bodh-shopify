@@ -1,0 +1,460 @@
+{
+  "current": {
+    "collection_healing": "pyramids",
+    "collection_healing_limit": 4,
+    "collection_home_decor": "crystal-murti",
+    "collection_home_decor_limit": 4,
+    "collection_jewellery": "crystal-pendants",
+    "collection_jewellery_limit": 4,
+    "sections": {
+      "announcement-ribbon": {
+        "type": "announcement-ribbon",
+        "settings": {
+          "anouncement_text": "New Collection Alert! Intention Bracelets | Free Shipping On Orders Over 1500\/-"
+        }
+      },
+      "new-nav-pc": {
+        "type": "new-nav-pc",
+        "settings": {
+          "nav_link": "",
+          "nav_link_text": "learn"
+        }
+      },
+      "hero-symbol": {
+        "type": "hero-symbol",
+        "settings": {
+          "pre_title": "Bodh is where style meets Spirit!",
+          "heading": "Foster well-being with our Crystal Trees🌲",
+          "sub_heading": "✨Find Calm & Stability, Attract Positivity & Nurture Self-Love & Abundance in every corner of your space🏠",
+          "image": "shopify:\/\/shop_images\/GLN9039_1.jpg",
+          "link": "shopify:\/\/collections\/crystal-trees",
+          "link_text": "shop now"
+        }
+      },
+      "home-block-1": {
+        "type": "home-block-1",
+        "settings": {
+          "short_description": "Shop By"
+        }
+      },
+      "home-block-2": {
+        "type": "home-block-2",
+        "settings": {
+          "short_description": "Shop By"
+        }
+      },
+      "home-block-3": {
+        "type": "home-block-3",
+        "settings": {
+          "short_description": "Shop By"
+        }
+      },
+      "about-us-section": {
+        "type": "about-us-section",
+        "settings": {
+          "pretitle": "ABOUT BODH",
+          "heading": "Bodh in Sanskrit Means “Knowledge”",
+          "paragraph": "Our main goal is to synthesize the power of crystals with our expert knowledge in Chakra Healing and Color Therapy to bring peace, positivity and fulfilment into a person’s life"
+        }
+      },
+      "section-b2b-hero": {
+        "type": "section-b2b-hero",
+        "settings": {
+          "paragraph_text": "<p>Text Area<\/p>",
+          "heading": "B2B Enquires",
+          "paragraph_for_enquiry": "Bodh Gem and Crystals is India’s leading, Mumbai based Crystal manufacturer & exporter. Supplier & Wholesaler of Crystal Products, Suppliers of Crystal tumbled stones, Crystal and gemstone jewellery like rings, necklaces, bracelets & anklets, gifting crystal artifacts like Trees, Hearts, Roses & frames. Crystal healing wands, Gemstone pyramids, Gemstone spheres, New age store, Polished crystals!\nQuality Management- Our products & services are made available with an assurance of highest quality"
+        }
+      },
+      "bi-directional-section-b2benq": {
+        "type": "bi-directional-section-b2benq",
+        "settings": {
+          "subtext": "Why Bodh Gem & Crystals?",
+          "pointers": "- Best Quality<br>\n- Customisation Available<br>\n- Authentic & Natural Crystals<br>\n- Best Prices <br>\n- Wide Range of Products"
+        }
+      },
+      "subsection-enquiry": {
+        "type": "subsection-enquiry",
+        "settings": {
+          "heading": "Bestsellers",
+          "subtitle": "To Make Every Expierence Personal"
+        }
+      },
+      "section-4-image": {
+        "type": "section-4-image",
+        "settings": {
+        }
+      },
+      "b2b-section-form-title": {
+        "type": "b2b-section-form-title",
+        "settings": {
+          "paragraph_text": "",
+          "custom_heading_text": "Get To Know Us",
+          "form_heading": "Contact Us",
+          "form_subtitle": "To Make Every Expierence Personal"
+        }
+      },
+      "best-seller-healing": {
+        "type": "best-seller-healing",
+        "settings": {
+          "category_heading": "Best Seller",
+          "heading_1": "Crystal Grid",
+          "heading_2": "Angel & Generators",
+          "heading_3": "Facial Tools",
+          "heading_4": "Charging Tools",
+          "text_area": "",
+          "image_1": "shopify:\/\/shop_images\/DSC2181_1920x_28552996-25bb-4206-8c30-84fbc2d2d3bf.webp",
+          "image_2": "shopify:\/\/shop_images\/DSC_9399_1920x_49ada24f-cad2-4c62-ae3d-f1255fef45c3.webp",
+          "image_3": "shopify:\/\/shop_images\/facial_tools_bodh_1920x_22995652-960c-4224-b9ab-b5ff41e6af1c.webp",
+          "image_4": "shopify:\/\/shop_images\/DSC1113_1920x_a124a8fe-d371-4419-8b17-3dab3572f321.webp",
+          "link_1": "shopify:\/\/collections\/crystal-grids",
+          "link_2": "shopify:\/\/collections\/angels-generators",
+          "link_3": "shopify:\/\/collections\/facial-tools",
+          "link_4": "shopify:\/\/collections\/charging-tools"
+        }
+      },
+      "diwali-section-2": {
+        "type": "diwali-section-2",
+        "settings": {
+          "sub_heading_1": "Crystal Kit",
+          "heading_1": "New Kits Available Now!",
+          "sub_heading_2": "Facial Tools",
+          "heading_2": "Last Few Left!",
+          "sub_heading_3": "crystal balls",
+          "heading_3": "Selling Out Fast!",
+          "sub_heading_4": "Selenite Heart Bowl",
+          "heading_4": "New Stock In!",
+          "text_area": "Bring in the power of crystals in your life to enhance your meditation and manifestation practices. Crystals are like your guiding light and a gentle reminder to take a moment for yourself and for your mindful growth.",
+          "image1": "shopify:\/\/shop_images\/spirituality-and-meditation-kit-202139-p-500_1920x_251b2acd-49db-4c23-9e73-00b8e00b460f.jpg",
+          "image2": "shopify:\/\/shop_images\/facial_tools_bodh_1920x_22995652-960c-4224-b9ab-b5ff41e6af1c.webp",
+          "image3": "shopify:\/\/shop_images\/5fbe758bec8db41bdac4d328_balls_hero_ss_1920x_eae8b760-d373-4a20-9ff0-b628e5bc1c88.webp",
+          "image4": "shopify:\/\/shop_images\/2_1920x_b6fb9018-b911-41d4-96de-95628184d7e9.webp",
+          "url_1": "shopify:\/\/collections\/crystal-kits",
+          "url_2": "shopify:\/\/collections\/facial-tools",
+          "url_3": "shopify:\/\/collections\/crystal-balls",
+          "url_4": ""
+        }
+      },
+      "crsytal-section-2": {
+        "type": "crsytal-section-2",
+        "settings": {
+          "category_heading2": "Pyramids",
+          "category_short_text2": "Bring in the power of crystals in your life to enhance your meditation and manifestation practices. Crystals are like your guiding light and a gentle reminder to take a moment for yourself and for your mindful growth.",
+          "collection_link_2": "shopify:\/\/collections\/pyramids",
+          "collection_link_2_text": "View Collection"
+        }
+      },
+      "best-seller-jewellery": {
+        "type": "best-seller-jewellery",
+        "settings": {
+          "category_heading": "Best Seller",
+          "heading_1": "Estrella",
+          "heading_2": "Crystal Anklets",
+          "heading_3": "Bracelets",
+          "heading_4": "Crystal Earrings",
+          "text_area": "The Estrella Collection has been our most loved collection since we launched it! These dainty yet modern style catches everyone’s attention. Wear it every day as your statement necklace. Wear it close to your Heart, make it a part of your being. ❤️🕊️",
+          "image_1": "shopify:\/\/shop_images\/estrella_1920x_5841f3b4-faeb-4c8a-a897-f0fc9fd2977f.webp",
+          "image_2": "shopify:\/\/shop_images\/60ca1bee6dea7720d2a8767d_citrine-original_1920x_245cafa0-9669-4d26-b95f-d59216b6f0fd.webp",
+          "image_3": "shopify:\/\/shop_images\/healing_bracelet_1920x_3ea8c14f-6c94-4ffd-beff-47f185f5f186.webp",
+          "image_4": "shopify:\/\/shop_images\/earrings_1920x_e06ca9bc-f2c6-4534-bf38-20bcab9b50ef.webp",
+          "link_1": "shopify:\/\/collections\/estrella-by-bodh",
+          "link_2": "shopify:\/\/collections\/anklets",
+          "link_3": "shopify:\/\/collections\/bracelets",
+          "link_4": "shopify:\/\/collections\/earrings"
+        }
+      },
+      "festive-offer-jewellery": {
+        "type": "festive-offer-jewellery",
+        "settings": {
+          "heading": "Complete your look with ease & sophistication!",
+          "sub_heading_1": "Stackable Bracelets",
+          "heading_1": "Curated for your Intention!",
+          "sub_heading_2": "Crystal Pendants",
+          "heading_2": "Starting from ₹450",
+          "sub_heading_3": "Estrella by bodh",
+          "heading_3": "New Collection!",
+          "sub_heading_4": "Necklaces",
+          "text": "On Sale",
+          "text_area": "Handmade with Love , good intentions & Good Energy✨",
+          "image_1": "shopify:\/\/shop_images\/stackable_bracelets_jpg_1920x_e27273b6-e973-4ec3-8c49-88a0cac8db54.webp",
+          "image_2": "shopify:\/\/shop_images\/pendant_1920x_a23820e4-0ec0-4569-ba29-8aacf206dbf3.webp",
+          "image_3": "shopify:\/\/shop_images\/DSC6597_1920x_8fd7d411-9983-4d08-9160-4470257b3e8a.webp",
+          "image_4": "shopify:\/\/shop_images\/necklace_1920x_7a218feb-a528-44e6-8c8f-c5847ac860a6.webp",
+          "offer_1_link": "shopify:\/\/collections\/stackable-bracelet",
+          "offer_2_link": "shopify:\/\/collections\/crystal-pendants",
+          "offer_3_link": "shopify:\/\/collections\/estrella-by-bodh",
+          "offer_4_link": "shopify:\/\/collections\/necklaces"
+        }
+      },
+      "anklets-section": {
+        "type": "anklets-section",
+        "settings": {
+          "collection_2_heading": "Crystal Pendants",
+          "collection_2_text": "Let your light shine bright with the beauty of the ✨Crystal Pendants✨ <br>These beauties are filled with immense goodness & will surely elevate your outfit with the perfect amount of elegance!",
+          "collection2_ink": "shopify:\/\/collections\/crystal-pendants",
+          "collection2_ink_text": "View Collection"
+        }
+      },
+      "best-seller-home-decor": {
+        "type": "best-seller-home-decor",
+        "settings": {
+          "category_heading": "Best Seller",
+          "heading_1": "Raw Cluster",
+          "heading_2": "Crystal Hearts",
+          "heading_3": "Coasters",
+          "heading_4": "Crystal Ducks",
+          "text_area": "",
+          "image_1": "shopify:\/\/shop_images\/16-48-54-thumbnail-1-460177_1366x_455234eb-b04f-41b8-8911-b1e989f139d3.webp",
+          "image_2": "shopify:\/\/shop_images\/DSC1004_1920x_1366x_74328621-2fd4-4868-a6d8-3c8b246f7203.webp",
+          "image_3": "shopify:\/\/shop_images\/DSC_9455_2.jpg",
+          "image_4": "shopify:\/\/shop_images\/dsc1008-1_1-p-2000_1366x_00abba5a-8ca1-4c62-b533-1fa7b04d4120.webp",
+          "link_1": "shopify:\/\/collections\/raw-clusters",
+          "link_2": "shopify:\/\/collections\/hearts",
+          "link_3": "shopify:\/\/collections\/coasters",
+          "link_4": "shopify:\/\/collections\/ducks"
+        }
+      },
+      "offer-section-home-decor": {
+        "type": "offer-section-home-decor",
+        "settings": {
+          "heading": "Special Offers!",
+          "text": "Enhance your space with the wide range of our crystal home decor artifacts and transform it into the home of your dreams ✨",
+          "sub_heading_1": "Crystal Trees",
+          "heading_1": "Make an Amazing Gift!",
+          "sub_heading_2": "Crystal Murti",
+          "heading_2": "New Stock In!",
+          "sub_heading_3": "Crystalline by Bodh",
+          "heading_3": "New Release",
+          "sub_heading_4": "Exclusive Home Decor Items!",
+          "heading_4": "Discounted Rates!",
+          "image_1": "shopify:\/\/shop_images\/B_PR_AM_TR_AA_L_1.jpg",
+          "image_2": "shopify:\/\/shop_images\/hero_page_india_1366x_78fe616a-0ca9-4379-982f-70ca26d82265.webp",
+          "image_3": "shopify:\/\/shop_images\/GLN7976_1366x_849d751e-184b-4f17-9f67-5786eaa7396b.webp",
+          "image_4": "shopify:\/\/shop_images\/DSC2486_1366x_28f77e40-239a-4e10-bde3-622cc9199520.webp",
+          "link_1": "shopify:\/\/collections\/crystal-trees",
+          "link_2": "shopify:\/\/collections\/crystal-murti",
+          "link_3": "shopify:\/\/collections\/crystalline-by-bodh",
+          "link_4": "shopify:\/\/collections\/chakra-crystal-candles"
+        }
+      },
+      "candle-holder-section": {
+        "type": "candle-holder-section",
+        "settings": {
+          "category_heading": "Crystal Murtis",
+          "category_description": "Each Murti is made of handpicked crystals, carefully chosen based on their properties for your Intention. Purposefully place these crystals in your home or workspace to serve the intention.",
+          "collection_url": "shopify:\/\/collections\/crystal-murti",
+          "collection_url_text": "View Collection"
+        }
+      },
+      "b2b-enquiries-hero": {
+        "type": "b2b-enquiries-hero",
+        "settings": {
+          "heading": "Corporate Service",
+          "small_text_for_b2b_hero": "Establish a relationship of trust and respect",
+          "hero_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+        }
+      },
+      "b2b-content-section": {
+        "type": "b2b-content-section",
+        "settings": {
+          "paragraph_gifting_text": "<p>Text Area<\/p>",
+          "heading_1_text": "A Little About Our Gifting Service",
+          "head": "A Little About Our Gifting Service",
+          "paragraph": "Crystals are a gift with deeper meaning. If you want to keep your gift hampers professional or give them a personal touch, crystals will serve both purposes. Nothing beats the gift of peace & joy, and crystal gift hampers will bring peace, love, and joy to the receiver's life. Customize as per your requirement or choose from our pre-curated hampers for your clients & employees."
+        }
+      },
+      "b2b-2col-grid": {
+        "type": "b2b-2col-grid",
+        "settings": {
+          "subsection_heading": "For <br>Clients",
+          "subsection_image": "shopify:\/\/shop_images\/B_B_CARD.png"
+        }
+      },
+      "b2b-subsection": {
+        "type": "b2b-subsection",
+        "settings": {
+          "subsection_heading": "For <br>Employees"
+        }
+      },
+      "b2b-subhero": {
+        "type": "b2b-subhero",
+        "settings": {
+          "subhero_image": "shopify:\/\/shop_images\/last_image.png"
+        }
+      },
+      "gifting-hero-section": {
+        "type": "gifting-hero-section",
+        "settings": {
+          "heading": "Gifting Guide",
+          "subtitle": "Your crystal gifting guide",
+          "hero_image": "shopify:\/\/shop_images\/IMG_7243_1_1920x_6f9c8668-8e2e-43c4-ab7d-ce892b67cbca.webp"
+        }
+      },
+      "for-you-section": {
+        "type": "for-you-section",
+        "settings": {
+          "button_text_text": "Shop"
+        }
+      },
+      "sub-section-gifting": {
+        "type": "sub-section-gifting",
+        "settings": {
+          "text_block_26_text": "",
+          "custom_heading_text": "Presents For All Occasion",
+          "heading": "Presents For All Occasion",
+          "title": "Every occasion is worth a million crystals"
+        }
+      },
+      "section-three-image": {
+        "type": "section-three-image",
+        "settings": {
+        }
+      },
+      "2-col-grid": {
+        "type": "2-col-grid",
+        "settings": {
+          "heading": "The Wedding Edit"
+        }
+      },
+      "option-text-gifting": {
+        "type": "option-text-gifting",
+        "settings": {
+          "text_block_26_text": "To Make Every Expierence Personal"
+        }
+      },
+      "section-festive-collage": {
+        "type": "section-festive-collage",
+        "settings": {
+          "img_col_1": "shopify:\/\/shop_images\/IMG_9183_1920x_88503101-25d4-4577-ac9a-f2bd0bed351f.webp",
+          "img_col_2": "shopify:\/\/shop_images\/hamper_2_1920x_cdd13409-aef4-4619-b21f-4883f472ff88.webp",
+          "img_col_3": "shopify:\/\/shop_images\/IMG_7252_1920x_e998a724-8b53-47d6-bcbb-f8f59901d425.webp"
+        }
+      },
+      "section-festive-content": {
+        "type": "section-festive-content",
+        "settings": {
+          "category_heading": "Crystal Festivities",
+          "paragraph": "Every Festival ignites our hearts and minds with joy!<br>\nThis time, lets celebrate them with crystals!<br><br>\n\nCrystals to lighten up your festival!"
+        }
+      },
+      "section-festive-4img": {
+        "type": "section-festive-4img",
+        "settings": {
+          "title_1": "Chakra crystal candles",
+          "title_2": "CRYSTAL trees",
+          "title_3": "angels",
+          "title_4": "coasters",
+          "image_1": "shopify:\/\/shop_images\/Untitled_design.webp",
+          "image_2": "shopify:\/\/shop_images\/crystal_tree.webp",
+          "image_3": "shopify:\/\/shop_images\/angel.webp",
+          "image_4": "shopify:\/\/shop_images\/DSC_9455_2.jpg",
+          "page_link": "shopify:\/\/collections\/chakra-crystal-candles",
+          "page_link_2": "shopify:\/\/collections\/crystal-trees",
+          "page_link_3": "shopify:\/\/collections\/angels-generators",
+          "page_link_4": "shopify:\/\/collections\/coasters"
+        }
+      },
+      "section-festive-grid": {
+        "type": "section-festive-grid",
+        "settings": {
+          "text_1": "Jewellery",
+          "text_2": "<p style=\"white-space: nowrap\">HomeDecor<\/p>",
+          "image_1": "shopify:\/\/shop_images\/Jewellery.webp",
+          "image_2": "shopify:\/\/shop_images\/frame.webp",
+          "button_url": "shopify:\/\/pages\/jewellery",
+          "button_2": "shopify:\/\/pages\/home-decor"
+        }
+      },
+      "section-client": {
+        "type": "section-client",
+        "settings": {
+          "gifting_heading_text": "",
+          "heading": "Client Gifting",
+          "subtitle": "Thoughtful Gifts for your Clients",
+          "hero_image": "shopify:\/\/shop_images\/DSC1702_1.jpg"
+        }
+      },
+      "client-content": {
+        "type": "client-content",
+        "settings": {
+          "heading_2": "A Little About Our Gifting Service",
+          "paragraph": "Gifting your clients is another significant value in today’s professional world. It is the best way to express gratitude and loyalty you hold towards your clients. Choosing something thoughtful and significant will definitely be worth remembering. Along with maintaining the relationship, it also gives the brand good exposure and creates a name worth remembering. Bodh is the perfect place to start when it comes to client gifting. Crystals are something so pure and natural, and a crystal gift would definitely be a win-win situation! They not only hold a certain intention, but when working with these crystals, they definitely bring peace, love, abundance, and prosperity to oneself."
+        }
+      },
+      "section-for-clients-1": {
+        "type": "section-for-clients-1",
+        "settings": {
+          "heading_3": "Crystal Trees",
+          "paragraph": "A crystal tree signifies purity, growth, stability, and unconditional love. Gifting a crystal tree would demonstrate your trust and respect for your employee while also maintaining a professional relationship. Every person has the desire to live and fulfill life in the best way possible; these crystal trees not only hold a significant intention, but they also work to accomplish your goals. Along with bringing aesthetics and beauty, they are well known for spreading a positive and peaceful vibe to your surroundings. When gifting out of love and respect, nothing could beat the elegance and charm a crystal tree would hold.",
+          "image": "shopify:\/\/shop_images\/B_PR_AM_TR_AA_L_1.jpg"
+        }
+      },
+      "section-for-clients-2": {
+        "type": "section-for-clients-2",
+        "settings": {
+          "heading_2": "Crystal Coasters",
+          "paragraph_2": "Gifting something unique yet useful, something with a meaning and a purpose. A crystal coaster is something functional, and decorative yet adds value to your life in many ways. Bodh's crystal-curated coasters are exquisitely designed, with gold plating around the edges to add to their opulence. The purpose of these coasters is to energize anything placed on them, be it food or drinks. It is a good practice to keep a glass of water on the coaster each night and drink it completely in the morning. Along with the meaning they hold, these coasters go perfectly in a gift hamper for your clients.",
+          "image_2": "shopify:\/\/shop_images\/DSC_9455_2.jpg"
+        }
+      },
+      "section-for-clients-3": {
+        "type": "section-for-clients-3",
+        "settings": {
+          "heading_3": "Crystal Murti",
+          "paragraph_3": "What a lovely gift it would be to have a crystal Ganpati murti by our side all the time! Bodh has crafted exquisite and beautiful crystal murtis to bring that feeling of traditions while adding a little elegance to your home or workspace! Place these murtis in your home, temple, workspace or any place you feel sacred, they will be your shield from negativity. Gifting a crystal murti would be the best yet and would definitely establish a trustworthy & professional relationship!",
+          "image_3": "shopify:\/\/shop_images\/amethyst_bappa_1.jpg"
+        }
+      },
+      "employee-content": {
+        "type": "employee-content",
+        "settings": {
+          "heading_2": "A Little About Our Gifting Service",
+          "paragraph": "Professional gifting in today's world is a thoughtful way of expressing your appreciation and value for your employees. Gifting crystals in their purest form to your employees to bring them joy and peace will undoubtedly be remembered, and it will also establish a rapport of respect and trust. A personalized gift hamper of crystal in every form to make your employees feel special is a gift like no other! Customize as per your requirement or choose from our pre-curated hampers for your clients & employees."
+        }
+      },
+      "section-for-employee-1": {
+        "type": "section-for-employee-1",
+        "settings": {
+          "heading_3": "Crystal Trees",
+          "paragraph": "A crystal tree signifies purity, growth, stability, and unconditional love. Gifting a crystal tree would demonstrate your trust and respect for your employee while also maintaining a professional relationship. Every person has the desire to live and fulfill life in the best way possible; these crystal trees not only hold a significant intention, but they also work to accomplish your goals. Along with bringing aesthetics and beauty, they are well known for spreading a positive and peaceful vibe to your surroundings. When gifting out of love and respect, nothing could beat the elegance and charm a crystal tree would hold.",
+          "image": "shopify:\/\/shop_images\/B_PR_AM_TR_AA_L_1.jpg"
+        }
+      },
+      "section-for-employee-2": {
+        "type": "section-for-employee-2",
+        "settings": {
+          "heading_2": "Workspace Kit",
+          "paragraph_2": "When it comes to working in peace and efficiency, keeping your mind focused is just the way to achieve positive outcomes. Bodh has put together the ideal hamper to encourage you toward hard work and determination. In the professional world, gifting a thoughtful gift would never go wrong. And, a gift with a significance and an intention would be the most ideal way to go about with it! Customize as per your requirement or choose from our pre-curated hampers for your clients & employees.<br><br>\nAmethyst Generator will minimize the effects of the harsh computer rays & remove unwanted energies from your space.<br><br>\nPlace the Iron Pyrite Cluster near your work desk to invite good fortune and prosperity in your future endeavours.",
+          "image_2": "shopify:\/\/shop_images\/DSC1634_1.jpg"
+        }
+      },
+      "section-for-employee-3": {
+        "type": "section-for-employee-3",
+        "settings": {
+          "heading_3": "Crystal Coasters",
+          "paragraph_3": "Gifting something unique yet useful, something with a meaning and a purpose. A crystal coaster is something functional, and decorative yet adds value to your life in many ways. Bodh's crystal-curated coasters are exquisitely designed, with gold plating around the edges to add to their opulence. The purpose of these coasters is to energize anything placed on them, be it food or drinks. It is a good practice to keep a glass of water on the coaster each night and drink it completely in the morning. Along with the meaning they hold, these coasters go perfectly in a gift hamper for your clients.",
+          "image_3": "shopify:\/\/shop_images\/DSC_9455_2.jpg"
+        }
+      },
+      "section-employee": {
+        "type": "section-employee",
+        "settings": {
+          "gifting_heading_text": "Corporate Service",
+          "heading": "Employee Gifting",
+          "subtitle": "Thoughtful Gifts for your Employees",
+          "hero_image": "shopify:\/\/shop_images\/GLN8979_1.jpg"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "11105581477831763250": {
+        "type": "shopify:\/\/apps\/ga-free-gift-buy-x-get-y-bogo\/blocks\/app-embeded\/624007ce-b7ae-460f-9bb2-c6b59ecf9add",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  }
+}

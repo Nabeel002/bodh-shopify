@@ -1,0 +1,26 @@
+
+      <h1 class="custom-heading">Get To Know Us</h1>
+      <div class="nam-wrapper">
+        <div class="hr left"></div>
+        <div class="text-block-26">{{ section.settings.text_block_26_text }}</div>
+        <div class="hr"></div>
+      </div>
+    
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","section btm wf-section");</script>
+        
+{% schema %}
+{
+  "name": "option-text-gifting",
+  "tag": "div",
+  "class": "section btm wf-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text_block_26_text",
+      "label": "Text Block 26 - Text",
+      "default": "To Make Every Expierence Personal"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,40 @@
+
+    <h1 class="heading-1 center-text _500-medium-w">{{ section.settings.head }}</h1>
+    <p class="paragraph-gifting m-auto">{{ section.settings.paragraph }}</p>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","section wf-section");</script>
+        
+{% schema %}
+{
+  "name": "b2b-content-section",
+  "tag": "div",
+  "class": "section wf-section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "paragraph_gifting_text",
+      "label": "paragraph-gifting - Text",
+      "default": "<p>Text Area</p>"
+    },
+    {
+      "type": "text",
+      "id": "heading_1_text",
+      "label": "Heading 1 - Text",
+      "default": "A Little About Our Gifting Service"
+    },
+    {
+      "type": "text",
+      "id": "head",
+      "label": "head",
+      "default": "{{ section.settings.heading_1_text }}"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph",
+      "label": "paragraph",
+      "default": "{{ section.settings.paragraph_gifting_text }}"
+    }
+  ]
+}
+{% endschema %}

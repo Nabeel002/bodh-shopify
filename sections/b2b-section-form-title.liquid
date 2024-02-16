@@ -1,0 +1,55 @@
+
+    <div class="flex">
+      <h1 class="custom-heading">{{ section.settings.form_heading }}</h1>
+      <div class="nam-wrapper">
+        <div class="hr left"></div>
+        <div class="text-block-23">{{ section.settings.form_subtitle }}</div>
+        <div class="hr"></div>
+      </div>
+    </div>
+    <div class="_2-col-grid">
+      <div class="w-embed w-script">
+        <div class="_form_22"></div>
+        <script src="https://bodhgemandcrystals.activehosted.com/f/embed.php?id=22" type="text/javascript" charset="utf-8"></script>
+      </div>
+      <div id="w-node-_81c8e77a-72d7-92cb-c5e4-0877a1df49ce-282611a4" class="contact-us-div">
+        <p class="paragraph-4">Phone:<br><br>+91 9870127914<br> +919821099113<br><br>Email:<br></br>merul@bodhgemandcrystals.com</p>
+      </div>
+    </div>
+  
+
+<script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","section wf-section");</script>
+        
+{% schema %}
+{
+  "name": "b2b-section-form-title",
+  "tag": "div",
+  "class": "section wf-section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "paragraph_text",
+      "label": "Paragraph - Text",
+      "default": "<p>Text Area</p>"
+    },
+    {
+      "type": "text",
+      "id": "custom_heading_text",
+      "label": "custom-heading - Text",
+      "default": "Get To Know Us"
+    },
+    {
+      "type": "text",
+      "id": "form_heading",
+      "label": "form-heading",
+      "default": "{{ section.settings.custom_heading_text }}"
+    },
+    {
+      "type": "text",
+      "id": "form_subtitle",
+      "label": "form-subtitle",
+      "default": "To Make Every Expierence Personal"
+    }
+  ]
+}
+{% endschema %}
