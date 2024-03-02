@@ -1,17 +1,64 @@
 
-    <div class="container">
-      <div class="w-layout-grid grid-8col bg-pyrite-25 big">
-        <div id="w-node-_1a6a4e24-9a00-8d86-85d2-db60307b9ab6-307b9ab3" class="about-us-grid-content-wrapper p-tab-left-2-84em">
+  <style>
+
+    @media screen and (min-width:750px) {
+      #flexed{
+        display: flex;
+        align-items: center;
+      }
+      .grid-2-col{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+      }
+
+      .one_em{
+        font-size: 2em;
+      }
+    
+   
+    }
+  </style>
+  
+  <div class="container">
+    <div class="grid-2-col"
+  >
+      <div class="bg-pyrite-25 big">
+        <div id="w-node-_1a6a4e24-9a00-8d86-85d2-db60307b9abf-307b9ab3" class="grid-image-wrapper bottom-padding-3-26em">
+          <img
+            src="{{  'ABOUT_US_IMAGE.jpg' | asset_url }}"
+            loading="lazy" height="" width="368" alt="" class="about-us-image"></div>
+        <div id="w-node-_1a6a4e24-9a00-8d86-85d2-db60307b9ab6-307b9ab3"
+          class="about-us-grid-content-wrapper p-tab-left-2-84em">
           <div class="content-holder">
-            <div class="pre-title margin-bottom-0-71">{{ section.settings.pretitle }}</div>
-            <h2 class="heading-2">{{ section.settings.heading }}</h2>
-            <div class="context">{{ section.settings.paragraph }}</div>
-            <a href="{{ pages["about-us"].url }}" class="outline-button background-hover w-button">Read our Story</a>
+            <div class="pre-title margin-bottom-0-71">ABOUT BODH</div>
+            <h2 class="heading-2 one_em">Bodh in Sanskrit Means “Knowledge”</h2>
+            <div class="context">Our main goal is to synthesize the power of crystals with our expert knowledge in Chakra
+              Healing and Color Therapy to bring peace, positivity and fulfilment into a person’s life</div>
+            <a href="/pages/about-us" class="outline-button background-hover w-button">Read our Story</a>
           </div>
         </div>
-        <div id="w-node-_1a6a4e24-9a00-8d86-85d2-db60307b9abf-307b9ab3" class="grid-image-wrapper bottom-padding-3-26em"><img src="{{ 'about_us_image.png' | asset_url }}" loading="lazy" height="" width="368" alt="" class="about-us-image"></div>
+  
+      </div>
+      <div id="flexed" class="bg-pyrite-25 big center" >
+       
+      <div id="w-node-c86794af-3772-71cf-e258-3397aa499cd3-da554e05" class="div-block-25 center">
+        <h1 class="heading-1 weight-400">Need Help? Get a<br> <strong class="bold-text">Free Consultation</strong> </h1>
+        <div class="consultation-form w-form">
+        <div class="_form_30"></div>
+        <script src="https://bodhgemandcrystals.activehosted.com/f/embed.php?id=30" charset="utf-8"></script>
+          <div class="success-message w-form-done  " tabindex="-1" role="region" aria-label="Form success">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail  " tabindex="-1" role="region" aria-label="Form failure">
+            <div></div>
+          </div>
+        </div>
+      </div>
+  
       </div>
     </div>
+  </div>
   
 
 <script>var currentSection = document.currentScript.closest('.shopify-section');currentSection.setAttribute("class","about-us-section");</script>

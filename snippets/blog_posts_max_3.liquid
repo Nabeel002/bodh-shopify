@@ -1,27 +1,130 @@
-{% capture listItems %}
+<!DOCTYPE html>
+<html lang="en">
 
-{%- assign allItems = blogs['post'].articles -%}
-{%- for item in allItems limit: 3 -%}
- <div role="listitem" class="w-dyn-item">
-            <a href="{{ item.url }}" class="link-block w-inline-block">
-              <div class="blog-image-holder"><img alt="{{ item.image.alt }}" loading="lazy" src="{{ item.image | img_url: 'master' }}" class="image-max-cover" srcset="{{ item.image | img_url: '1920x' }} 1920w,{{ item.image | img_url: '1600x' }} 1600w,{{ item.image | img_url: '1366x' }} 1366w,{{ item.image | img_url: '1024x' }} 1024w,{{ item.image | img_url: '768x' }} 768w,{{ item.image | img_url: '640x' }} 640w"></div>
-              <div class="blog-content-wrapper">
-                <h2 class="blog-heading">{{ item.title }}</h2>
-                <p class="subtitle color-moonstone tab-subtitle">{{ item.excerpt }}</p>
-                <p class="blog-date">{{ item.published_at | date: "%B %e, %Y" }}</p>
-              </div>
-            </a>
-          </div>
-{%- endfor -%}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Shopify Blog Slider</title>
+  <!-- Link to Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
 
-{% endcapture %}
-{% assign items_length = listItems | strip | size %}
+    .swiper-slide {
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+    }
 
-<article class="blog-wrapper w-dyn-list" udy-collection="post">
-        {%- unless items_length == 0 -%}<div role="list" class="grid-3col w-dyn-items">
-          {{ listItems }}
-        </div>{%- endunless -%}
-        {%- if items_length == 0 -%}<div class="w-dyn-empty">
-          <div>No items found.</div>
-        </div>{%- endif -%}
-      </article>
+
+
+    .blog-paragraph {
+      font-size: 16px;
+      margin-top: 5vw;
+      color: var(--color-bd46fc8);
+    } .blog-title{
+        font-size: 22px;
+        margin-top: 3vw;
+      }
+.swiper-button-next, .swiper-button-prev{
+  top: 30vw;
+  color:black;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 7vw;
+}
+.img-container{
+  height: 14em;
+}
+
+    @media screen and (min-width:750px) {
+     
+      .blog-paragraph{
+        color: var(--color-bd46fc8);
+        font-size: 16px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+
+        
+      }
+      .img-container{
+  height: 22vw;
+  width: auto;
+}
+
+      .blog-title{
+        font-size: 1.7vw;
+          margin-top: 1vw;
+      }
+      
+    }
+  </style>
+</head>
+
+<body>
+<div class="swiper">
+  <div class="swiper-wrapper">
+    {%- assign allItems = blogs['post'].articles -%}
+    {% for item in allItems limit: 3 %}
+    <div class="swiper-slide">
+      <a href="{{ item.url }}}">
+        <div class="img-container"><img src="{{ item.image | img_url:'master' }}" class="image-max-cover" />
+        </div>
+        <h2 class="blog-title">{{ item.title }}</h2>
+        <p class="blog-paragraph">{{ item.excerpt | strip_html | truncate: 80}}</p>
+
+
+      </a>
+
+    </div>
+    {% endfor %}
+  </div>
+  <div class="swiper-navigation">
+    <div class="swiper-button-prev "></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+</div>
+
+  
+  <!-- Link to Swiper JS -->
+  <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Initialize Swiper
+    var swiper = new Swiper('.swiper', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      }
+    });
+  });
+</script>
+</body>
+
+</html>

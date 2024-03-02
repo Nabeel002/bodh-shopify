@@ -1,0 +1,110 @@
+<style>
+    body {
+        align-items: center;
+        justify-content: center;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-250px * 8));
+        }
+    }
+
+    .slider {
+        height: 100px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: auto;
+        margin-bottom: 3vw;
+    }
+
+    .slider .slide-track {
+        animation: scroll 40s linear infinite;
+        display: flex;
+        width: calc(250px * 16);
+    }
+
+    .slider .slide {
+        height: 100px;
+        width: 250px;
+    }
+
+    .slider-title {
+        text-align: center;
+        font-style: italic;
+        font-size: 1.5vw;
+        font-weight: 400;
+        margin-top: 3vw;
+    }
+    @media screen and (max-width:450px){
+      
+    
+    .slider-title {
+        font-size: 4.5vw;
+        padding-top: 30px;
+    }
+    }
+</style>
+
+
+
+<h2 class="slider-title">As seen in</h2>
+<div class="slider">
+
+    <div class="slide-track">
+        <div class="slide">
+            <img src="{{ '1.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '2.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '3.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '4.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '5.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '6.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '7.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '8.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+
+        <div class="slide">
+            <img src="{{ '1.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '2.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '3.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '4.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '5.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '6.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '7.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+        <div class="slide">
+            <img src="{{ '8.png' | asset_url }}" height="90" width="250" alt="" />
+        </div>
+    </div>
+</div>

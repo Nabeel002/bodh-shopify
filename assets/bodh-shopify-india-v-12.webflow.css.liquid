@@ -66,6 +66,54 @@ img {
     user-select: none;
 }
 
+.flex-2col{
+    margin-left: 5em;
+    margin-right: 5em;
+    
+  }
+
+  @media screen and (min-width:480px) {
+      .grid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+  }
+  .footer-muted-text{
+    margin-left:10vw;
+  }
+
+    
+  }
+@media screen and (min-width:750px) {
+
+
+    .flex-2col{
+    display:flex;
+    justify-content: center;
+    
+  }
+
+
+  
+  .flex-imgg{
+       height: 26em;
+      width: 40.2em;
+  }
+  
+  .pd-right{
+    margin-right: 3em;
+  }
+  
+  .pd-left{
+    margin-left:3em;
+ 
+  }
+  
+  .gray-border{
+    border: 29px solid #F6F6F5;
+    height: 100%;
+  }
+}
 .reveal .hidden { display: block !important; visibility: visible !important;}
 .product:hover .reveal img { opacity: 1; }
 .reveal { position: relative; }
@@ -164,6 +212,10 @@ h3.heading-17 {
     bottom: 52px !important;
    
 }
+
+.dash{
+  margin-bottom: 2em;
+}
   
 #_form_63335399BF5A2_ ._submit {
 
@@ -240,8 +292,9 @@ h3.heading-17 {
     }
 }
 @media only screen and (max-width: 480px) {
-
-
+  .mt-3em{
+    margin-top: 4em;
+  }
   .annoucement-text.mobile-hide {
     display: none;
   }
@@ -3560,7 +3613,7 @@ blockquote {
 .grid-image-wrapper {
   position: relative;
   overflow: hidden;
-  height: 38em;
+  height: 22em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3573,6 +3626,10 @@ blockquote {
   object-fit: fill;
 }
 
+.custom-size{
+  height:38em;
+}
+
 .grid-image-wrapper.bottom-padding-3-26em {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3581,7 +3638,6 @@ blockquote {
   width: 100%;
   margin-top: auto;
   margin-bottom: auto;
-  padding: 0em 4.5em 0em 1.04em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3645,14 +3701,6 @@ blockquote {
   text-decoration: underline;
 }
 
-.grid-footer {
-  grid-column-gap: 20px;
-  grid-row-gap: 0px;
-  -ms-grid-columns: 1fr 0.5fr 0.5fr 0.5fr;
-  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
-}
 
 .footer-muted-text {
   padding-top: 7px;
@@ -4128,7 +4176,7 @@ blockquote {
 }
 
 .dash {
-  width: 6.87em;
+  width: 4.87em;
   height: 2px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -4431,14 +4479,15 @@ blockquote {
   padding-top: 0em;
   padding-bottom: 0em;
   padding-left: 0em;
+  background-color: #F6F6F5;
 }
 
 .context {
-  max-width: 35ch;
+  max-width: 68ch;
   margin-top: 0.89em;
   margin-bottom: 1.78em;
   color: var(--color-n2acdebd9);
-  font-size: 1.4em;
+  font-size: 0.85em;
 }
 
 .bold-text {
@@ -4467,6 +4516,7 @@ blockquote {
 }
 
 .form-block-container {
+  align-self:baseline;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4502,6 +4552,7 @@ blockquote {
 }
 
 .checkbox-block {
+  align-self:baseline;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4863,6 +4914,7 @@ blockquote {
 
 .blog-section {
   display: block;
+
 }
 
 .heading-wrapper {
@@ -4910,7 +4962,7 @@ blockquote {
   margin-bottom: 0px;
   padding: 0px;
   border-style: solid;
-  border-width: 1px 1px 2px;
+  border-width: 0px 0px 2px;
   border-color: transparent transparent var(--color-n7eb1f1b3);
   background-color: transparent;
   font-size: 1.11em;
@@ -6715,6 +6767,7 @@ blockquote {
 
 .hero-content {
   padding-bottom: 2em;
+  padding-top: 2em;
 }
 
 .image-max-cover-hero {
@@ -6810,7 +6863,8 @@ blockquote {
 }
 
 .content-holder {
-  padding: 4.5em;
+  padding-top: 1.5em;
+  padding-bottom: 3em;
 }
 
 .div-block-25 {
@@ -6822,14 +6876,14 @@ blockquote {
 .crystal-3-grid {
   margin-left: 0px;
   grid-column-gap: 2em;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
 
 .crystal-image-wrapper {
-  height: 30em;
+  height: 20em;
 }
 
 .crystal-content-wrapper {
@@ -7059,8 +7113,10 @@ blockquote {
 
 .about-us-image {
   width: 100%;
+  height:100%;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 1em;
+  object-fit: cover;
 }
 
 .text-block-18 {
@@ -8054,11 +8110,7 @@ blockquote {
     font-size: 1.3em;
   }
 
-  .grid-footer {
-    grid-column-gap: 1.11em;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
+
 
   .footer-muted-text {
     font-size: 1.3em;
@@ -8309,6 +8361,7 @@ blockquote {
     padding-top: 2.14em;
     padding-bottom: 2.14em;
     padding-left: 1.54em;
+    background-color: #F6F6F5;
   }
 
   .context {
@@ -8421,6 +8474,7 @@ blockquote {
 
   .blog-section {
     padding-top: 41px;
+    margin-top: -1vw;
   }
 
   .heading-wrapper.p-bottom-1-39em._w-100 {
@@ -9566,13 +9620,7 @@ blockquote {
     font-size: 2em;
   }
 
-  .grid-footer {
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    -ms-grid-rows: auto auto auto;
-    grid-template-rows: auto auto auto;
-  }
-
+  
   .footer-muted-text {
     font-size: 2em;
   }
@@ -9800,6 +9848,7 @@ blockquote {
 
   .about-us-grid-content-wrapper.p-tab-left-2-84em {
     padding: 0em;
+    background-color: #F6F6F5;
   }
 
   .form-block-container {
@@ -10834,6 +10883,7 @@ blockquote {
 
   .footer-heading.footer-muted-head {
     font-size: 4em;
+    text-align: center;
   }
 
   .footer-link {
@@ -10841,15 +10891,7 @@ blockquote {
     text-align: center;
   }
 
-  .grid-footer {
-    padding-right: 4.44em;
-    padding-left: 4.44em;
-    grid-column-gap: 0em;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
-  }
+
 
   .footer-muted-text {
     font-size: 3.5em;
@@ -11286,6 +11328,7 @@ blockquote {
     padding-top: 0em;
     padding-right: 0.84em;
     padding-left: 0.84em;
+    background-color: #F6F6F5;
   }
 
   .context {
@@ -11432,7 +11475,7 @@ blockquote {
   }
 
   .blog-section {
-    padding-top: 46px;
+    padding-top: 30px;
   }
 
   .email-field {
@@ -12217,8 +12260,8 @@ blockquote {
   }
 
   .body-font-hero {
-    padding-top: 1.67em;
-    padding-bottom: 1.67em;
+    padding-top: .67em;
+    padding-bottom: .67em;
     font-size: 4em;
   }
 
@@ -15525,6 +15568,9 @@ blockquote {
 
 @media screen and (max-width: 479px) {
 
+.categories-section {
+  margin-top: 45px;
+}
   .blog-rich-text{
     padding-right: 2.5em;
     padding-left: 2.5em;
@@ -16354,3 +16400,5 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+
+
