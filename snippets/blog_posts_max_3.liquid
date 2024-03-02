@@ -75,7 +75,7 @@
     {%- assign allItems = blogs['post'].articles -%}
     {% for item in allItems limit: 3 %}
     <div class="swiper-slide">
-      <a href="{{ item.url }}}">
+      <a href="{{ item.url }}">
         <div class="img-container"><img src="{{ item.image | img_url:'master' }}" class="image-max-cover" />
         </div>
         <h2 class="blog-title">{{ item.title }}</h2>
