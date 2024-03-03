@@ -458,6 +458,13 @@
           "short_description": "View All",
           "main_image": "shopify:\/\/shop_images\/VIEW_ALL_CATEGORIES_HERO_IMAGE.jpg"
         }
+      },
+      "intent-section": {
+        "type": "intent-section",
+        "settings": {
+          "short_description": "View All",
+          "main_image_1": "shopify:\/\/shop_images\/SHOP_BY_CRYSTAL.jpg"
+        }
       }
     },
     "content_for_index": [
