@@ -1,6 +1,81 @@
+<div class="flex-2col">
+  <section >
+    <div class="pd-right">
+      <div class="gray-border">
+        
+          <div id="w-node-a1491ab1-0214-49c0-8223-45c62d810114-a2b1a593" class="flex-imgg">
+            {%- if section.settings.main_image_1 == nil -%}
+            <img
+              src="{{ 'rock_2.webp' | asset_url }}" loading="lazy" height="" width="842" alt="rocks" class="image-max-cover">
+              {%- else -%}
+              <img
+              src="{{ section.settings.main_image_1.src | asset_url }}" loading="lazy" height="" width="842" alt="rocks" class="image-max-cover">
+            {%- endif -%}
+          </div>
+        <div id="w-node-a1491ab1-0214-49c0-8223-45c62d81010b-a2b1a593" class="pd-left">
+          <div class="hero-content">
+            <h2 class="heading-2 m-bottom-0-39em">Shop by Crystal</h2>
+            <div class="body-font-hero">Every crystal is filled with their own healing abilities for the mind, body and soul helping us improve the quality of our lives.</div>
+          </div>
+          <a href="{{ pages["find-by-crystal"].url }}" class="button-with-dash w-inline-block">
+            <div class="dash"></div>
+            <div class="dash-button-text p-left-1-07em">Shop now</div>
+          </a>
+        </div>
+     
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="gray-border">
+      <div class="mt-3em">
+        <div id="w-node-e8e563e6-bf1b-dd3b-8f83-09ec89dbed9f-a2b1a593" class="flex-imgg">
+           {%- if section.settings.main_image_2 == nil -%}
+          <img src="{{ '616efb31209b3e41d60bae5d_butterfly_auto_x2.jpg' | asset_url }}" loading="lazy" height="" width="842" alt="butterfly" srcset="{{ '616efb31209b3e41d60bae5d_butterfly_auto_x2-p-800.jpeg' | asset_url }} 800w, {{ '616efb31209b3e41d60bae5d_butterfly_auto_x2.jpg' | asset_url }} 1072w" sizes="91vw" class="image-max-cover">
+             {% else %}
+                    <img src="{{ section.settings.main_image_2.src | asset_url }}" loading="lazy" height="" width="842" alt="butterfly" srcset="{{ section.settings.main_image_2.src | asset_url }} 800w, {{ section.settings.main_image_2.src | asset_url }} 1072w" sizes="91vw" class="image-max-cover">
+{% endif %}
+             </div>
+        <div id="w-node-e8e563e6-bf1b-dd3b-8f83-09ec89dbeda1-a2b1a593" class="pd-left">
+          <div class="hero-content">
+            <h1 class="heading-2 m-bottom-0-39em">Shop by Intent</h1>
+            <div class="body-font-hero">Choose the perfect crystals to set your intentions. Be it new beginnings in life, finding love, peace and prosperity? &nbsp;<br> </div>
+          </div>
+<a href="https://bodhgemandcrystals.com/pages/shop-by-intent" class="button-with-dash w-inline-block">
+            <div class="dash"></div>
+            <div class="dash-button-text p-left-1-07em">Shop now</div>
+          </a>        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "home-block-4",
+  "tag": "div",
+  "class": "crysta-link w-inline-block",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "short_description",
+      "label": "short description",
+      "default": "View All"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image_1",
+      "label": "main image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image_2",
+      "label": "main image 2"
+    }
+  ]
+}
 {% endschema %}
