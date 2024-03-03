@@ -9,7 +9,7 @@
               src="{{ 'rock_2.webp' | asset_url }}" loading="lazy" height="" width="842" alt="rocks" class="image-max-cover">
               {%- else -%}
               <img
-              src="{{ section.settings.main_image_1.src | image_url: 'master' }}" loading="lazy" height="" width="842" alt="rocks" class="image-max-cover">
+              src="{{ section.settings.main_image_1.src | img_url: 'master' }}" loading="lazy" height="" width="842" alt="rocks" class="image-max-cover">
             {%- endif -%}
           </div>
         <div id="w-node-a1491ab1-0214-49c0-8223-45c62d81010b-a2b1a593" class="pd-left">
@@ -33,7 +33,7 @@
            {%- if section.settings.main_image_2 == nil -%}
           <img src="{{ '616efb31209b3e41d60bae5d_butterfly_auto_x2.jpg' | asset_url }}" loading="lazy" height="" width="842" alt="butterfly" srcset="{{ '616efb31209b3e41d60bae5d_butterfly_auto_x2-p-800.jpeg' | asset_url }} 800w, {{ '616efb31209b3e41d60bae5d_butterfly_auto_x2.jpg' | asset_url }} 1072w" sizes="91vw" class="image-max-cover">
              {% else %}
-                    <img src="{{ section.settings.main_image_2.src | image_url: 'master' }}" loading="lazy" height="" width="842" alt="butterfly" srcset="{{ section.settings.main_image_2.src | image_url: '800x' }} 800w, {{ section.settings.main_image_2.src | image_url: '1027x' }} 1072w" sizes="91vw" class="image-max-cover">
+                    <img src="{{ section.settings.main_image_2.src | img_url: 'master' }}" loading="lazy" height="" width="842" alt="butterfly" srcset="{{ section.settings.main_image_2.src | img_url: '800x' }} 800w, {{ section.settings.main_image_2.src | img_url: '1027x' }} 1072w" sizes="91vw" class="image-max-cover">
 {% endif %}
              </div>
         <div id="w-node-e8e563e6-bf1b-dd3b-8f83-09ec89dbeda1-a2b1a593" class="pd-left">
