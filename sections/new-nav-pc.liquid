@@ -164,7 +164,7 @@
 
                     <a href="{{ pages["jewellery"].url }}" class="nav-sub-link w-dropdown-link">View all<br> Jewellery</a>
                   </div>
-                  <div class="nav-image-holder"><img sizes="100vw" srcset="{{ '5fbe757a8b771e2f8b470450-p-500.jpeg' | asset_url }} 500w, {{ '5fbe757a8b771e2f8b470450.jpeg' | asset_url }} 710w" src="{{ '5fbe757a8b771e2f8b470450.jpeg' | asset_url }}" loading="eager" alt="" class="image-max-cover"></div>
+                  <div class="nav-image-holder"><img sizes="100vw" srcset="{{ 'DROP_DOWN_JEWELLERY.jpg' | asset_url }} 500w, {{ '5fbe757a8b771e2f8b470450.jpeg' | asset_url }} 710w" src="{{ '5fbe757a8b771e2f8b470450.jpeg' | asset_url }}" loading="eager" alt="" class="image-max-cover"></div>
                 </div>
               </nav>
             </div>
@@ -198,7 +198,7 @@
                                         <a href="{{ pages["home-decor"].url }}" class="nav-sub-link w-dropdown-link">View all<br>Home Decor</a>
 
                   </div>
-                  <div class="nav-image-holder"><img src="{{ '5fbe7586e292284bb344f8d1_5f963f8da2bf707be00f6343_selected9-1.jpeg' | asset_url }}" loading="lazy" sizes="100vw" srcset="{{ '5fbe7586e292284bb344f8d1_5f963f8da2bf707be00f6343_selected9-1-p-500.jpeg' | asset_url }} 500w, {{ '5fbe7586e292284bb344f8d1_5f963f8da2bf707be00f6343_selected9-1.jpeg' | asset_url }} 680w" alt="pyramids" class="image-max-cover"></div>
+                  <div class="nav-image-holder"><img src="{{ 'DROP_DOWN_HOME_DECOR.png' | asset_url }}" loading="lazy" sizes="100vw" srcset="{{ '5fbe7586e292284bb344f8d1_5f963f8da2bf707be00f6343_selected9-1-p-500.jpeg' | asset_url }} 500w, {{ '5fbe7586e292284bb344f8d1_5f963f8da2bf707be00f6343_selected9-1.jpeg' | asset_url }} 680w" alt="pyramids" class="image-max-cover"></div>
                 </div>
               </nav>
             </div>
@@ -241,7 +241,7 @@
 
                     <a href="{{ pages["healing"].url }}" class="nav-sub-link w-dropdown-link">View All Healing</a>
                   </div>
-                  <div class="nav-image-holder">{%- if section.settings.nav_image == nil -%}<img src="https://uploads-ssl.webflow.com/613b36b97ccfb87f99eaeb93/6145d48b62f7c83b91d6d7c7__DSC1702-3.jpg" loading="eager" alt="" class="image-max-cover">{%- else -%}<img src="{{ section.settings.nav_image.src | img_url: 'master' }}" loading="eager" alt="{{ section.settings.nav_image.alt | escape }}" class="image-max-cover" srcset="{{ section.settings.nav_image | img_url: '1920x' }} 1920w,{{ section.settings.nav_image | img_url: '1600x' }} 1600w,{{ section.settings.nav_image | img_url: '1366x' }} 1366w,{{ section.settings.nav_image | img_url: '1024x' }} 1024w,{{ section.settings.nav_image | img_url: '768x' }} 768w,{{ section.settings.nav_image | img_url: '640x' }} 640w">{%- endif -%}</div>
+                  <div class="nav-image-holder">{%- if section.settings.nav_image == nil -%}<img src="DROP_DOWN_HEALING.jpg" loading="eager" alt="" class="image-max-cover">{%- else -%}<img src="{{ section.settings.nav_image.src | img_url: 'master' }}" loading="eager" alt="{{ section.settings.nav_image.alt | escape }}" class="image-max-cover" srcset="{{ section.settings.nav_image | img_url: '1920x' }} 1920w,{{ section.settings.nav_image | img_url: '1600x' }} 1600w,{{ section.settings.nav_image | img_url: '1366x' }} 1366w,{{ section.settings.nav_image | img_url: '1024x' }} 1024w,{{ section.settings.nav_image | img_url: '768x' }} 768w,{{ section.settings.nav_image | img_url: '640x' }} 640w">{%- endif -%}</div>
                 </div>
               </nav>
             </div>
