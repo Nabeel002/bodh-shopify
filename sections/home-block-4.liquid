@@ -1,6 +1,34 @@
+    <a option:url="url" href="{{ pages[" shop"].url }}" class="w-inline-block">
+          <div class="crystal-image-wrapper">{%- if section.settings.main_image == nil -%}<img src="{{ 'tumbles.jpg' | asset_url }}" loading="lazy" height=""
+              width="842" option:image="main image" alt="Tumbles
+  " class="image-max-cover">{%- else -%}<img class="image-max-cover" src="{{ section.settings.main_image.src | img_url: 'master' }}" width="842" height="" alt="{{ section.settings.main_image.alt | escape }}" loading="lazy" srcset="{{ section.settings.main_image | img_url: '1920x' }} 1920w,{{ section.settings.main_image | img_url: '1600x' }} 1600w,{{ section.settings.main_image | img_url: '1366x' }} 1366w,{{ section.settings.main_image | img_url: '1024x' }} 1024w,{{ section.settings.main_image | img_url: '768x' }} 768w,{{ section.settings.main_image | img_url: '640x' }} 640w">{%- endif -%}</div>
+          <div class="crystal-content-wrapper">
+            <div option:textarea="short description" class="crystal-call-to-action">View all</div>
+            <div class="crystal-title">CATEGORIES</div>
+          </div>
+        </a>
+
+
+
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "home-block-4",
+  "tag": "div",
+  "class": "crysta-link w-inline-block",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "short_description",
+      "label": "short description",
+      "default": "View All"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "main image"
+    }
+  ]
+}
 {% endschema %}
