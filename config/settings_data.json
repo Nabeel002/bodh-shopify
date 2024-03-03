@@ -10,7 +10,7 @@
       "announcement-ribbon": {
         "type": "announcement-ribbon",
         "settings": {
-          "anouncement_text": "New Collection Alert! Intention Bracelets | Free Shipping On Orders Over 1500\/-"
+          "anouncement_text": "Use Code: \"SHIVRATRI15%\" on Healing Collection! | Free Shipping On Orders Over 1500\/-"
         }
       },
       "new-nav-pc": {
@@ -24,11 +24,11 @@
         "type": "hero-symbol",
         "settings": {
           "pre_title": "Bodh is where style meets Spirit!",
-          "heading": "Foster well-being with our Crystal Trees🌲",
-          "sub_heading": "✨Find Calm & Stability, Attract Positivity & Nurture Self-Love & Abundance in every corner of your space🏠",
-          "image": "shopify:\/\/shop_images\/GLN9039_1.jpg",
-          "link": "shopify:\/\/collections\/crystal-trees",
-          "link_text": "shop now"
+          "heading": "Embrace the divine energy this Mahashivratri 🌟",
+          "sub_heading": "Order your crystals now to enhance your spiritual connection & amplify your devotion 🕉️",
+          "image": "shopify:\/\/shop_images\/edited.png",
+          "link": "shopify:\/\/pages\/shop",
+          "link_text": "use code: \"shivratri15%\""
         }
       },
       "home-block-1": {
