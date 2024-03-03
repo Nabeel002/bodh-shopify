@@ -463,7 +463,8 @@
         "type": "intent-section",
         "settings": {
           "short_description": "View All",
-          "main_image_1": "shopify:\/\/shop_images\/SHOP_BY_CRYSTAL.jpg"
+          "main_image_1": "shopify:\/\/shop_images\/SHOP_BY_CRYSTAL.jpg",
+          "main_image_2": "shopify:\/\/shop_images\/SHOP_BY_INTENTION.jpg"
         }
       }
     },
