@@ -1,4 +1,4 @@
-    <a option:url="url" href="{{ pages[" shop"].url }}" class="w-inline-block">
+    <a option:url="url" href="{{ pages["shop"].url }}" class="w-inline-block">
           <div class="crystal-image-wrapper">{%- if section.settings.main_image == nil -%}<img src="{{ 'tumbles.jpg' | asset_url }}" loading="lazy" height=""
               width="842" option:image="main image" alt="Tumbles
   " class="image-max-cover">{%- else -%}<img class="image-max-cover" src="{{ section.settings.main_image.src | img_url: 'master' }}" width="842" height="" alt="{{ section.settings.main_image.alt | escape }}" loading="lazy" srcset="{{ section.settings.main_image | img_url: '1920x' }} 1920w,{{ section.settings.main_image | img_url: '1600x' }} 1600w,{{ section.settings.main_image | img_url: '1366x' }} 1366w,{{ section.settings.main_image | img_url: '1024x' }} 1024w,{{ section.settings.main_image | img_url: '768x' }} 768w,{{ section.settings.main_image | img_url: '640x' }} 640w">{%- endif -%}</div>
