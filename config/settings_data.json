@@ -451,6 +451,13 @@
         "type": "brand-slider",
         "settings": {
         }
+      },
+      "home-block-4": {
+        "type": "home-block-4",
+        "settings": {
+          "short_description": "View All",
+          "main_image": "shopify:\/\/shop_images\/VIEW_ALL_CATEGORIES_HERO_IMAGE.jpg"
+        }
       }
     },
     "content_for_index": [
