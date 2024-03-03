@@ -241,7 +241,7 @@
 
                     <a href="{{ pages["healing"].url }}" class="nav-sub-link w-dropdown-link">View All Healing</a>
                   </div>
-                  <div class="nav-image-holder">{%- if section.settings.nav_image == nil -%}<img src="DROP_DOWN_HEALING.jpg" loading="eager" alt="" class="image-max-cover">{%- else -%}<img src="{{ section.settings.nav_image.src | img_url: 'master' }}" loading="eager" alt="{{ section.settings.nav_image.alt | escape }}" class="image-max-cover" srcset="{{ section.settings.nav_image | img_url: '1920x' }} 1920w,{{ section.settings.nav_image | img_url: '1600x' }} 1600w,{{ section.settings.nav_image | img_url: '1366x' }} 1366w,{{ section.settings.nav_image | img_url: '1024x' }} 1024w,{{ section.settings.nav_image | img_url: '768x' }} 768w,{{ section.settings.nav_image | img_url: '640x' }} 640w">{%- endif -%}</div>
+                  <div class="nav-image-holder">{%- if section.settings.nav_image == nil -%}<img src="{{ 'DROP_DOWN_HEALING.jpg' | asset_url }}" loading="eager" alt="" class="image-max-cover">{%- else -%}<img src="{{ section.settings.nav_image.src | img_url: 'master' }}" loading="eager" alt="{{ section.settings.nav_image.alt | escape }}" class="image-max-cover" srcset="{{ section.settings.nav_image | img_url: '1920x' }} 1920w,{{ section.settings.nav_image | img_url: '1600x' }} 1600w,{{ section.settings.nav_image | img_url: '1366x' }} 1366w,{{ section.settings.nav_image | img_url: '1024x' }} 1024w,{{ section.settings.nav_image | img_url: '768x' }} 768w,{{ section.settings.nav_image | img_url: '640x' }} 640w">{%- endif -%}</div>
                 </div>
               </nav>
             </div>
