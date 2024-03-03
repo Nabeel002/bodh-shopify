@@ -34,19 +34,22 @@
       "home-block-1": {
         "type": "home-block-1",
         "settings": {
-          "short_description": "Shop By"
+          "short_description": "Shop By",
+          "main_image": "shopify:\/\/shop_images\/HEALING_HERO_IMAGE.jpg"
         }
       },
       "home-block-2": {
         "type": "home-block-2",
         "settings": {
-          "short_description": "Shop By"
+          "short_description": "Shop By",
+          "main_image": "shopify:\/\/shop_images\/JEWELLERY_HERO_IMAGE.jpg"
         }
       },
       "home-block-3": {
         "type": "home-block-3",
         "settings": {
-          "short_description": "Shop By"
+          "short_description": "Shop By",
+          "main_image": "shopify:\/\/shop_images\/HOME_DECOR_HERO_IMAGE.jpg"
         }
       },
       "about-us-section": {
@@ -442,6 +445,11 @@
           "heading": "Employee Gifting",
           "subtitle": "Thoughtful Gifts for your Employees",
           "hero_image": "shopify:\/\/shop_images\/GLN8979_1.jpg"
+        }
+      },
+      "brand-slider": {
+        "type": "brand-slider",
+        "settings": {
         }
       }
     },
