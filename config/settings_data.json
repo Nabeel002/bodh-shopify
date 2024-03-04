@@ -1,6 +1,6 @@
 {
   "current": {
-    "collection_healing": "pyramids",
+    "collection_healing": "intention-kits",
     "collection_healing_limit": 4,
     "collection_home_decor": "crystal-murti",
     "collection_home_decor_limit": 4,
@@ -99,50 +99,50 @@
       "best-seller-healing": {
         "type": "best-seller-healing",
         "settings": {
-          "category_heading": "Best Seller",
-          "heading_1": "Crystal Grid",
-          "heading_2": "Angel & Generators",
-          "heading_3": "Facial Tools",
-          "heading_4": "Charging Tools",
+          "category_heading": "Best Sellers!",
+          "heading_1": "Shiv Shakti",
+          "heading_2": "Angels",
+          "heading_3": "Gua Sha",
+          "heading_4": "Selenite Heart Bowl",
           "text_area": "",
-          "image_1": "shopify:\/\/shop_images\/DSC2181_1920x_28552996-25bb-4206-8c30-84fbc2d2d3bf.webp",
-          "image_2": "shopify:\/\/shop_images\/DSC_9399_1920x_49ada24f-cad2-4c62-ae3d-f1255fef45c3.webp",
-          "image_3": "shopify:\/\/shop_images\/facial_tools_bodh_1920x_22995652-960c-4224-b9ab-b5ff41e6af1c.webp",
-          "image_4": "shopify:\/\/shop_images\/DSC1113_1920x_a124a8fe-d371-4419-8b17-3dab3572f321.webp",
-          "link_1": "shopify:\/\/collections\/crystal-grids",
+          "image_1": "shopify:\/\/shop_images\/edited.png",
+          "image_2": "shopify:\/\/shop_images\/green-aventurine-angel-3-in-654905.jpg",
+          "image_3": "shopify:\/\/shop_images\/rose-quartz-mushroom-gua-sha-528410.jpg",
+          "image_4": "shopify:\/\/shop_images\/selenite-heart-bowl-978826.png",
+          "link_1": "shopify:\/\/products\/shiv-shakti-small",
           "link_2": "shopify:\/\/collections\/angels-generators",
-          "link_3": "shopify:\/\/collections\/facial-tools",
-          "link_4": "shopify:\/\/collections\/charging-tools"
+          "link_3": "shopify:\/\/products\/rose-quartz-mushroom-gua-sha",
+          "link_4": "shopify:\/\/products\/selenite-heart-bowl"
         }
       },
       "diwali-section-2": {
         "type": "diwali-section-2",
         "settings": {
-          "sub_heading_1": "Crystal Kit",
-          "heading_1": "New Kits Available Now!",
-          "sub_heading_2": "Facial Tools",
+          "sub_heading_1": "Workspace Kit",
+          "heading_1": "Restocked!",
+          "sub_heading_2": "Crystal Raw Clusters",
           "heading_2": "Last Few Left!",
-          "sub_heading_3": "crystal balls",
-          "heading_3": "Selling Out Fast!",
-          "sub_heading_4": "Selenite Heart Bowl",
-          "heading_4": "New Stock In!",
+          "sub_heading_3": "Crystal Balls",
+          "heading_3": "New Stock Alert!",
+          "sub_heading_4": "Chanting Mala",
+          "heading_4": "Choose According to your intention!",
           "text_area": "Bring in the power of crystals in your life to enhance your meditation and manifestation practices. Crystals are like your guiding light and a gentle reminder to take a moment for yourself and for your mindful growth.",
-          "image1": "shopify:\/\/shop_images\/spirituality-and-meditation-kit-202139-p-500_1920x_251b2acd-49db-4c23-9e73-00b8e00b460f.jpg",
-          "image2": "shopify:\/\/shop_images\/facial_tools_bodh_1920x_22995652-960c-4224-b9ab-b5ff41e6af1c.webp",
-          "image3": "shopify:\/\/shop_images\/5fbe758bec8db41bdac4d328_balls_hero_ss_1920x_eae8b760-d373-4a20-9ff0-b628e5bc1c88.webp",
-          "image4": "shopify:\/\/shop_images\/2_1920x_b6fb9018-b911-41d4-96de-95628184d7e9.webp",
+          "image1": "shopify:\/\/shop_images\/workspace-kit-1-422481.jpg",
+          "image2": "shopify:\/\/shop_images\/SHOP_BY_CRYSTAL.jpg",
+          "image3": "shopify:\/\/shop_images\/Crystal_Balls.jpg",
+          "image4": "shopify:\/\/shop_images\/green-aventurine-chanting-mala-6mm-793705.jpg",
           "url_1": "shopify:\/\/collections\/crystal-kits",
           "url_2": "shopify:\/\/collections\/facial-tools",
           "url_3": "shopify:\/\/collections\/crystal-balls",
-          "url_4": ""
+          "url_4": "shopify:\/\/collections\/chanting-mala"
         }
       },
       "crsytal-section-2": {
         "type": "crsytal-section-2",
         "settings": {
-          "category_heading2": "Pyramids",
+          "category_heading2": "Intention Kits",
           "category_short_text2": "Bring in the power of crystals in your life to enhance your meditation and manifestation practices. Crystals are like your guiding light and a gentle reminder to take a moment for yourself and for your mindful growth.",
-          "collection_link_2": "shopify:\/\/collections\/pyramids",
+          "collection_link_2": "shopify:\/\/collections\/intention-kits",
           "collection_link_2_text": "View Collection"
         }
       },
