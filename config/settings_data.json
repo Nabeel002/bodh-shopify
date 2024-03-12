@@ -2,7 +2,7 @@
   "current": {
     "collection_healing": "intention-kits",
     "collection_healing_limit": 4,
-    "collection_home_decor": "crystal-murti",
+    "collection_home_decor": "crystal-balls",
     "collection_home_decor_limit": 4,
     "collection_jewellery": "estrella-by-bodh",
     "collection_jewellery_limit": 4,
@@ -223,18 +223,18 @@
           "text": "Enhance your space with the wide range of our crystal home decor artifacts and transform it into the home of your dreams ✨",
           "sub_heading_1": "Crystal Trees",
           "heading_1": "Make an Amazing Gift!",
-          "sub_heading_2": "Crystal Murti",
-          "heading_2": "New Stock In!",
-          "sub_heading_3": "Crystalline by Bodh",
-          "heading_3": "New Release",
+          "sub_heading_2": "Iron Pyrite Frame",
+          "heading_2": "Attract Abundance Now!",
+          "sub_heading_3": "Rose Quartz Stand",
+          "heading_3": "Atmosphere of Love & Happiness!",
           "sub_heading_4": "Exclusive Home Decor Items!",
           "heading_4": "Discounted Rates!",
-          "image_1": "shopify:\/\/shop_images\/B_PR_AM_TR_AA_L_1.jpg",
-          "image_2": "shopify:\/\/shop_images\/hero_page_india_1366x_78fe616a-0ca9-4379-982f-70ca26d82265.webp",
-          "image_3": "shopify:\/\/shop_images\/GLN7976_1366x_849d751e-184b-4f17-9f67-5786eaa7396b.webp",
+          "image_1": "shopify:\/\/shop_images\/crystal-tree-with-dark-wooden-base-545933.jpg",
+          "image_2": "shopify:\/\/shop_images\/iron-pyrite-frame-918013.jpg",
+          "image_3": "shopify:\/\/shop_images\/rose-quartz-stand-565378.png",
           "image_4": "shopify:\/\/shop_images\/DSC2486_1366x_28f77e40-239a-4e10-bde3-622cc9199520.webp",
           "link_1": "shopify:\/\/collections\/crystal-trees",
-          "link_2": "shopify:\/\/collections\/crystal-murti",
+          "link_2": "shopify:\/\/products\/iron-pyrite-frame",
           "link_3": "shopify:\/\/collections\/crystalline-by-bodh",
           "link_4": "shopify:\/\/collections\/chakra-crystal-candles"
         }
@@ -242,9 +242,9 @@
       "candle-holder-section": {
         "type": "candle-holder-section",
         "settings": {
-          "category_heading": "Crystal Murtis",
-          "category_description": "Each Murti is made of handpicked crystals, carefully chosen based on their properties for your Intention. Purposefully place these crystals in your home or workspace to serve the intention.",
-          "collection_url": "shopify:\/\/collections\/crystal-murti",
+          "category_heading": "Crystal Balls",
+          "category_description": "🔮 Unlock mystical insights with the timeless enchantment of our Crystal Ball, a beacon of clarity & foresight🌟",
+          "collection_url": "shopify:\/\/collections\/crystal-balls",
           "collection_url_text": "View Collection"
         }
       },
