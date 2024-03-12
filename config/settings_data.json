@@ -4,7 +4,7 @@
     "collection_healing_limit": 4,
     "collection_home_decor": "crystal-murti",
     "collection_home_decor_limit": 4,
-    "collection_jewellery": "crystal-pendants",
+    "collection_jewellery": "estrella-by-bodh",
     "collection_jewellery_limit": 4,
     "sections": {
       "announcement-ribbon": {
@@ -150,17 +150,17 @@
         "type": "best-seller-jewellery",
         "settings": {
           "category_heading": "Best Seller",
-          "heading_1": "Estrella",
-          "heading_2": "Crystal Anklets",
-          "heading_3": "Bracelets",
-          "heading_4": "Crystal Earrings",
-          "text_area": "The Estrella Collection has been our most loved collection since we launched it! These dainty yet modern style catches everyone’s attention. Wear it every day as your statement necklace. Wear it close to your Heart, make it a part of your being. ❤️🕊️",
-          "image_1": "shopify:\/\/shop_images\/estrella_1920x_5841f3b4-faeb-4c8a-a897-f0fc9fd2977f.webp",
-          "image_2": "shopify:\/\/shop_images\/60ca1bee6dea7720d2a8767d_citrine-original_1920x_245cafa0-9669-4d26-b95f-d59216b6f0fd.webp",
-          "image_3": "shopify:\/\/shop_images\/healing_bracelet_1920x_3ea8c14f-6c94-4ffd-beff-47f185f5f186.webp",
-          "image_4": "shopify:\/\/shop_images\/earrings_1920x_e06ca9bc-f2c6-4534-bf38-20bcab9b50ef.webp",
-          "link_1": "shopify:\/\/collections\/estrella-by-bodh",
-          "link_2": "shopify:\/\/collections\/anklets",
+          "heading_1": "Pendant",
+          "heading_2": "Amethyst Adjustable Ring",
+          "heading_3": "Moonstone, Rose Quartz & Aquamarine Bracelet",
+          "heading_4": "Amethyst Chips Signature Earrings",
+          "text_area": "Indulge in the Allure of Crystal Jewellery, where elegance meets energy. Our bestselling pieces Radiate Beauty & Positivity with every wear.❤️🕊️",
+          "image_1": "shopify:\/\/shop_images\/kyanite-pencil-long-pendant-896488.jpg",
+          "image_2": "shopify:\/\/shop_images\/amethyst-ring-654170.jpg",
+          "image_3": "shopify:\/\/shop_images\/moonstone-rose-quartz-aquamarine-bracelet-325601.png",
+          "image_4": "shopify:\/\/shop_images\/amethyst-chips-signature-earrings-993626.jpg",
+          "link_1": "shopify:\/\/collections\/crystal-pendants",
+          "link_2": "shopify:\/\/products\/amethyst-ring",
           "link_3": "shopify:\/\/collections\/bracelets",
           "link_4": "shopify:\/\/collections\/earrings"
         }
@@ -169,32 +169,32 @@
         "type": "festive-offer-jewellery",
         "settings": {
           "heading": "Complete your look with ease & sophistication!",
-          "sub_heading_1": "Stackable Bracelets",
+          "sub_heading_1": "Intention Bracelets",
           "heading_1": "Curated for your Intention!",
-          "sub_heading_2": "Crystal Pendants",
-          "heading_2": "Starting from ₹450",
-          "sub_heading_3": "Estrella by bodh",
-          "heading_3": "New Collection!",
-          "sub_heading_4": "Necklaces",
-          "text": "On Sale",
+          "sub_heading_2": "Men's Collection",
+          "heading_2": "Best Sellers!!!",
+          "sub_heading_3": "Crystal Necklaces",
+          "heading_3": "New Designs!",
+          "sub_heading_4": "Phone Charms",
+          "text": "Discounted Prices!",
           "text_area": "Handmade with Love , good intentions & Good Energy✨",
-          "image_1": "shopify:\/\/shop_images\/stackable_bracelets_jpg_1920x_e27273b6-e973-4ec3-8c49-88a0cac8db54.webp",
-          "image_2": "shopify:\/\/shop_images\/pendant_1920x_a23820e4-0ec0-4569-ba29-8aacf206dbf3.webp",
-          "image_3": "shopify:\/\/shop_images\/DSC6597_1920x_8fd7d411-9983-4d08-9160-4470257b3e8a.webp",
-          "image_4": "shopify:\/\/shop_images\/necklace_1920x_7a218feb-a528-44e6-8c8f-c5847ac860a6.webp",
-          "offer_1_link": "shopify:\/\/collections\/stackable-bracelet",
-          "offer_2_link": "shopify:\/\/collections\/crystal-pendants",
-          "offer_3_link": "shopify:\/\/collections\/estrella-by-bodh",
-          "offer_4_link": "shopify:\/\/collections\/necklaces"
+          "image_1": "shopify:\/\/shop_images\/money-manifestation-bracelet-886682.jpg",
+          "image_2": "shopify:\/\/shop_images\/iron-pyrite-tigers-eye-with-golden-charm-combo-bracelets-368699.jpg",
+          "image_3": "shopify:\/\/shop_images\/multi-tourmaline-chips-mala-388768.png",
+          "image_4": "shopify:\/\/shop_images\/moonstone-phone-charm-817744.jpg",
+          "offer_1_link": "shopify:\/\/collections\/intention-bracelets",
+          "offer_2_link": "shopify:\/\/collections\/mens-collection",
+          "offer_3_link": "shopify:\/\/collections\/necklaces",
+          "offer_4_link": "shopify:\/\/collections\/phone-charms"
         }
       },
       "anklets-section": {
         "type": "anklets-section",
         "settings": {
-          "collection_2_heading": "Crystal Pendants",
-          "collection_2_text": "Let your light shine bright with the beauty of the ✨Crystal Pendants✨ <br>These beauties are filled with immense goodness & will surely elevate your outfit with the perfect amount of elegance!",
-          "collection2_ink": "shopify:\/\/collections\/crystal-pendants",
-          "collection2_ink_text": "View Collection"
+          "collection_2_heading": "Estrella by Bodh",
+          "collection_2_text": "Let your light shine bright with the beauty of the ✨Estrella Necklaces✨ <br>These beauties are filled with immense goodness & will surely elevate your outfit with the perfect amount of elegance!",
+          "collection2_ink": "shopify:\/\/collections\/estrella-by-bodh",
+          "collection2_ink_text": "Clearance Sale: Flat 499\/-"
         }
       },
       "best-seller-home-decor": {
